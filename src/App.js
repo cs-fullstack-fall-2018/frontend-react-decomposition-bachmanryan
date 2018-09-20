@@ -92,11 +92,7 @@ class App extends Component {
     // Render or Bender Bending Rodríguez
     render() {
         return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <h1 className="App-title">{this.state.appTitle}</h1>
-                </header>
+            <div className="betterName">
                 <div>
                     <AddToDo clicked={this.clickAdd}/>
                 </div>
