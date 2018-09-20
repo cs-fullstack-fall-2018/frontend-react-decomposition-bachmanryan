@@ -92,7 +92,10 @@ class App extends Component {
     // Render or Bender Bending Rodríguez
     render() {
         return (
-            <div className="betterName">
+            <div>
+                <div>
+                    <betterName/>
+                </div>
                 <div>
                     <AddToDo clicked={this.clickAdd}/>
                 </div>
